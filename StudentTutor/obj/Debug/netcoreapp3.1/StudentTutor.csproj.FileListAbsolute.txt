@@ -2,7 +2,6 @@ C:\Users\Lungelo Nkosi\source\repos\StudentTutor\StudentTutor\bin\Debug\netcorea
 C:\Users\Lungelo Nkosi\source\repos\StudentTutor\StudentTutor\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Lungelo Nkosi\source\repos\StudentTutor\StudentTutor\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Lungelo Nkosi\source\repos\StudentTutor\StudentTutor\bin\Debug\netcoreapp3.1\StudentTutor.exe
-C:\Users\Lungelo Nkosi\source\repos\StudentTutor\StudentTutor\obj\Debug\netcoreapp3.1\StudentTutor.csprojAssemblyReference.cache
 C:\Users\Lungelo Nkosi\source\repos\StudentTutor\StudentTutor\obj\Debug\netcoreapp3.1\staticwebassets\StudentTutor.StaticWebAssets.Manifest.cache
 C:\Users\Lungelo Nkosi\source\repos\StudentTutor\StudentTutor\obj\Debug\netcoreapp3.1\staticwebassets\StudentTutor.StaticWebAssets.xml
 C:\Users\Lungelo Nkosi\source\repos\StudentTutor\StudentTutor\obj\Debug\netcoreapp3.1\StudentTutor.AssemblyInfoInputs.cache
