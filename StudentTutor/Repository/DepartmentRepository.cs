@@ -16,17 +16,17 @@ namespace StudentTutor.Repository
         }
         public Department Add(Department department)
         {
-            try
-            {
+            //try
+            //{
                 _context.Departments.Add(department);
                 _context.SaveChanges();
                 return department;
-            }
-            catch (Exception)
-            {
+            //}
+            ////catch (Exception)
+            ////{
 
-                throw new ArgumentNullException("Invalid Data Submited");
-            }
+            ////    throw new ArgumentNullException("Invalid Data Submited");
+            ////}
         }
 
         public void Delete(int id)
@@ -49,7 +49,10 @@ namespace StudentTutor.Repository
         {
             return _context.Departments.Find(id);
         }
-
+        /// <summary>
+        /// /
+        /// </summary>
+        /// <returns></returns>
         public IQueryable<Department> Get()
         {
             return _context.Departments;
