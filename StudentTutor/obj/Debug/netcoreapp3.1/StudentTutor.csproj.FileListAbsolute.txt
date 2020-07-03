@@ -122,3 +122,4 @@ C:\Users\Lungelo Nkosi\source\repos\StudentTutor\StudentTutor\bin\Debug\netcorea
 C:\Users\Lungelo Nkosi\source\repos\StudentTutor\StudentTutor\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Lungelo Nkosi\source\repos\StudentTutor\StudentTutor\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Lungelo Nkosi\source\repos\StudentTutor\StudentTutor\obj\Debug\netcoreapp3.1\StudentTutor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lungelo Nkosi\source\repos\StudentTutor\StudentTutor\obj\Debug\netcoreapp3.1\StudentTutor.csprojAssemblyReference.cache

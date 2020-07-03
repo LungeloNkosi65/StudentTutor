@@ -21,5 +21,9 @@ namespace StudentTutor.Models
         public string StudentNumber { get; set; }
         public string Name { get; set; }
         public string Level { get; set; }
+        [PasswordPropertyText,Required]
+        public string Password { get; set; }
+        [PasswordPropertyText,Required]
+        public string ConfirmPassword { get; set; }
     }
 }

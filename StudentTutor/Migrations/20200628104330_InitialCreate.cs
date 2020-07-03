@@ -67,7 +67,9 @@ namespace StudentTutor.Migrations
                     CourseId = table.Column<int>(nullable: false),
                     StudentNumber = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
-                    Level = table.Column<string>(nullable: true)
+                    Level = table.Column<string>(nullable: true),
+                    Password = table.Column<string>(nullable: false),
+                    ConfirmPassword = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
                 {

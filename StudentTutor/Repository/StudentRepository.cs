@@ -52,14 +52,14 @@ namespace StudentTutor.Repository
 
         public IQueryable<Student> Get()
         {
-            return _context.Students;
+            return _context.Students.Include(x=>x.Course);
         }
 
         public IQueryable<Student> Get(string? id)
         {
             try
             {
-                return _context.Students.Where(x => x.StudentId == id);
+                return _context.Students.Where(x => x.StudentId == id).Include(x=>x.Course);
             }
             catch (ArgumentNullException)
             {

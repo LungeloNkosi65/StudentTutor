@@ -34,6 +34,12 @@ namespace StudentTutor
             services.AddTransient<ICourseRepository, CourseRepository>();
             services.AddTransient<IDepartmentRepository, DepartmentRepository>();
             services.AddTransient<IFAcultyRepository, FacultyRepository>();
+            services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.PropertyNamingPolicy = null;
+                options.JsonSerializerOptions.DictionaryKeyPolicy = null;
+            });
+            services.AddCors();
 
 
         }
@@ -49,6 +55,10 @@ namespace StudentTutor
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseCors(options =>
+            options.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
 
             app.UseEndpoints(endpoints =>
             {
