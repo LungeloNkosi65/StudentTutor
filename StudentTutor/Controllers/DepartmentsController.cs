@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using StudentTutor.Models;
 using StudentTutor.Repository;
 
@@ -22,7 +23,7 @@ namespace StudentTutor.Controllers
         [HttpGet]
         public IEnumerable<Department> GetAll()
         {
-            return _departmentRepository.Get();
+            return _departmentRepository.Get().Include(x=>x.Faculty);
         }
 
         [HttpGet("{id}")]

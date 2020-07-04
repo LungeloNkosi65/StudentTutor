@@ -14,6 +14,8 @@ namespace StudentTutor.Models
         public DbSet<Department> Departments { get; set; }
         public DbSet<Faculty> Faculties { get; set; }
         public DbSet<Student> Students { get; set; }
+        public virtual DbSet<Booking> Booking { get; set; }
+        public virtual DbSet<StudentDetails> StudentDetails { get; set; }
 
     }
 }
